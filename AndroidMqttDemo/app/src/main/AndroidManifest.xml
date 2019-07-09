@@ -14,8 +14,6 @@
         android:supportsRtl="true"
         android:name=".mqtt_app.MqttApp"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
         <activity android:name=".dashboard.DashBoardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
