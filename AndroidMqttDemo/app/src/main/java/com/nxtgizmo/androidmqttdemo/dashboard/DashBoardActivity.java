@@ -2,6 +2,7 @@ package com.nxtgizmo.androidmqttdemo.dashboard;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 import com.nxtgizmo.androidmqttdemo.R;
 import com.nxtgizmo.androidmqttdemo.mqtt_app.MqttApp;
@@ -17,6 +18,7 @@ public class DashBoardActivity extends AppCompatActivity implements DashboardCon
 
     @Inject
     MqttAndroidClient client;
+    private TextView message;
 
     private DashboardPresenter dashboardPresenter;
 
@@ -25,6 +27,8 @@ public class DashBoardActivity extends AppCompatActivity implements DashboardCon
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        message = findViewById(R.id.message);
 
         ((MqttApp)getApplication()).getMqttComponent().inject(this);
         dashboardPresenter = new DashboardPresenter(this);
@@ -36,6 +40,7 @@ public class DashBoardActivity extends AppCompatActivity implements DashboardCon
     @Override
     public void onSuccess(String successMessage) {
         Timber.d(successMessage);
+        message.setText(successMessage);
     }
 
     @Override

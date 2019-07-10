@@ -32,7 +32,7 @@ public class DashboardPresenter {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
                     // We are connected
-                    Timber.d("On Mqtt connect success");
+                    view.onSuccess("Connected");
                     subscribeToMqttChannel(client);
                 }
 

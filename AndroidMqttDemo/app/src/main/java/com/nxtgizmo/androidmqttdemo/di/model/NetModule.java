@@ -19,7 +19,7 @@ public class NetModule {
     @Provides @Singleton
     MqttAndroidClient provideMqttAndroidClient (Application application) {
         String clientId = MqttClient.generateClientId();
-        return new MqttAndroidClient(application, "YOUR BROKER SERVER",
+        return new MqttAndroidClient(application, "tcp://broker.hivemq.com:1883",
                 clientId);
     }
 }
