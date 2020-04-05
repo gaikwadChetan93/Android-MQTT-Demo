@@ -10,6 +10,12 @@ App architecture
   
   -MQTT -  Eclipse Paho
   
+#If you wish to contribute
+1. Create a branch from master
+2. Implement your changes
+3. Raise a PR against master.
+
+  
   
   
   
