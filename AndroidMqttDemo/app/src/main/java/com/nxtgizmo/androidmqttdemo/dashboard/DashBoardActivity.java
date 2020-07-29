@@ -1,8 +1,9 @@
 package com.nxtgizmo.androidmqttdemo.dashboard;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.nxtgizmo.androidmqttdemo.R;
 import com.nxtgizmo.androidmqttdemo.mqtt_app.MqttApp;
