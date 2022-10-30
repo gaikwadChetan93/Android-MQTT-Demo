@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-MQTT-Demo.AndroidMqttDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-MQTT-Demo.AndroidMqttDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidMqttDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidMqttDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-MQTT-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-MQTT-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-MQTT-Demo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-MQTT-Demo.app.iml" />
     </modules>
   </component>
 </project>
