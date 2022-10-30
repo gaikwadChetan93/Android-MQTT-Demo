@@ -15,7 +15,7 @@ App architecture
 2. Implement your changes
 3. Raise a PR against master.
 
-  
-  
+ # If you think the project has helped you then buy me a coffee :)
+ https://www.buymeacoffee.com/gaikwadcheD
   
   
